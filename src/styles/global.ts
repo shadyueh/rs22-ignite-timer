@@ -15,6 +15,11 @@ export const GlobalStyle = createGlobalStyle`
 body {
   background: ${(props) => props.theme['gray-900']};
   color: ${(props) => props.theme['gray-300']};
+  background: rgb(32,178,170);
+  background: linear-gradient(176deg, rgba(32,178,170,1) 0%, rgba(2,0,36,1) 13%, rgba(2,0,36,1) 64%, rgba(32,178,170,1) 100%);
+  height: calc(100vh - 2px);
+  width: calc(100vw - 2px);
+  border: 1px solid rgb(0,218,218);
 }
 
 body, input, textarea, button {
