@@ -20,6 +20,7 @@ body {
   height: calc(100vh - 2px);
   width: calc(100vw - 2px);
   border: 1px solid rgb(0,218,218);
+  -webkit-font-smoothing: antialiased;
 }
 
 body, input, textarea, button {
